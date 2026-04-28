@@ -1,2 +1,5 @@
 [phases.setup]
-nixPkgs = ["xorg.libxcb", "libGL", "glib"]
+nixPkgs = ["xorg.libxcb", "xorg.libX11", "libGL", "glib", "zlib"]
+
+[variables]
+PYTHON_VERSION = "3.11"
