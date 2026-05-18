@@ -1,2 +1,2 @@
 [build]
-nixPackages = ["libxcb"]
+nixPackages = ["xorg.libxcb", "libxkbcommon"]
